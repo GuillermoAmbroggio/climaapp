@@ -6175,7 +6175,7 @@
   dependencies:
     "dotenv" "^10.0.0"
 
-"react-native-gesture-handler@*":
+"react-native-gesture-handler@*", "react-native-gesture-handler@^2.3.2":
   "integrity" "sha512-ibcYWHMiDbioUcaAMuw3/Taz3mYn0fJz0q2KnGX1hWpLNz/x/E5/BzKB+T3ycwAm1dQEgPgHWpaZ8eqO/EVFlw=="
   "resolved" "https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-2.3.2.tgz"
   "version" "2.3.2"
