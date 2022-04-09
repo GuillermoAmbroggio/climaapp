@@ -16,7 +16,7 @@ It should also work for ios but was not tested.
 
 ## URL Proyect
 
-[WEB Proyect](https://weatherapp-nasdx073z-guillermoambroggio.vercel.app/home)
+[WEB Proyect](https://weatherapp-nasdx073z-guillermoambroggio.vercel.app/home) &nbsp;
 [APP Proyect](https://expo.dev/@guillermoambroggio/weatherapp?serviceType=classic&distribution=expo-go)
 
 You need expo go app to watch on mobile.
