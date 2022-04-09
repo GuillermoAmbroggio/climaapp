@@ -16,9 +16,12 @@ jobs:
           expo-version: 4.x
           token: ${{ secrets.EXPO_TOKEN }}
       - run: yarn install
+      - name: Expo Publish
       - run: expo publish
+      - name: Build Expo Web
       - run: expo build:web
-      - uses: amondnet/vercel-action@v20 #deploy
+      - name: Vercel Deploy
+      - uses: amondnet/vercel-action@v20.0.0 #deploy
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
           vercel-args: '--prod' #Optional

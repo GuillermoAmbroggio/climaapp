@@ -75,6 +75,7 @@ const Home: React.FC<IHomeProps> = ({ navigation }) => {
 
         <SearchByName navigation={navigation} />
       </Column>
+
       <VerticalList
         showsVerticalScrollIndicator={isBig ? true : false}
         contentContainerStyle={{
